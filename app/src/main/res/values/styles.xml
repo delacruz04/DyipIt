@@ -12,4 +12,9 @@
         <item name="android:background">@color/primaryColor</item>
     </style>
 
+    <style name="ActionButton">
+        <item name="android:background">@color/primaryLightColor</item>
+    </style>
+
+
 </resources>
