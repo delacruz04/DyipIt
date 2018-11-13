@@ -40,8 +40,8 @@ public class admin_login extends AppCompatActivity {
     {
         EditText mEdit;
         EditText pass;
-        mEdit=(EditText)findViewById(R.id.email);
-        pass=(EditText)findViewById(R.id.pass);
+        mEdit=(EditText)findViewById(R.id.editEmail);
+        pass=(EditText)findViewById(R.id.editPass);
 
         String email=mEdit.getText().toString();
         String password= pass.getText().toString();
