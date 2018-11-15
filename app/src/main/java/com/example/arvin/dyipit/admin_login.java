@@ -34,6 +34,11 @@ public class admin_login extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
+         if(currentUser!=null){
+                    Intent i = new Intent(getBaseContext(), admin_home.class);
+                    startActivity(i);
+
+                } //check if user is logged in
 
     }
     public void LoginUser(View v)
