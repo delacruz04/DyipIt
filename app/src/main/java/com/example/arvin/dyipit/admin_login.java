@@ -48,8 +48,8 @@ public class admin_login extends AppCompatActivity {
         mEdit=(EditText)findViewById(R.id.editEmail);
         pass=(EditText)findViewById(R.id.editPass);
 
-        String email=mEdit.getText().toString();
-        String password= pass.getText().toString();
+        String email=mEdit.getText().toString().trim();
+        String password= pass.getText().toString().trim();
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -59,6 +59,7 @@ public class admin_login extends AppCompatActivity {
                             Log.d("4ITF", "signInWithEmail:success");
 
                             Intent i = new Intent(getBaseContext(), admin_home.class);
+                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             startActivity(i);
                         } else {
                             // If sign in fails, display a message to the user.
@@ -70,6 +71,12 @@ public class admin_login extends AppCompatActivity {
                 });
     }
 
+
+    public void forgot(View v){
+        Intent i = new Intent(getBaseContext(), admin_forgot.class);
+        startActivity(i);
+
+    }
 
 
 

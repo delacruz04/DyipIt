@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "66762095432",
+    "firebase_url": "https://dyipit-master.firebaseio.com",
+    "project_id": "dyipit-master",
+    "storage_bucket": "dyipit-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66762095432:android:9edc32f6f9600ab5",
+        "android_client_info": {
+          "package_name": "com.example.arvin.dyipit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66762095432-dnn2vae0f8uplpeh0dba08a2p6icjall.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arvin.dyipit",
+            "certificate_hash": "15eec3da675c20fc7628f332193269c7ef326df8"
+          }
+        },
+        {
+          "client_id": "66762095432-nh1o1q28gg67ea794bval2naqndu5mu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arvin.dyipit",
+            "certificate_hash": "541dc850bc47ce5ee0919e3960fcd4c9f62fed4b"
+          }
+        },
+        {
+          "client_id": "66762095432-ppdc1v9vdps42hfuq4u5v4k2is4q1e94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD22dwpAdPEzhKIyh9oCwKA6_m5Ji997BU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66762095432-ppdc1v9vdps42hfuq4u5v4k2is4q1e94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
