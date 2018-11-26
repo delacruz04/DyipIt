@@ -23,4 +23,10 @@ public class ActionUser extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void display3(View v) {
+        Intent i = new Intent(this, MapsActivity.class);
+
+        startActivity(i);
+    }
+
 }

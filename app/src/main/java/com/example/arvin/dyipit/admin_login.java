@@ -78,6 +78,4 @@ public class admin_login extends AppCompatActivity {
 
     }
 
-
-
 }
